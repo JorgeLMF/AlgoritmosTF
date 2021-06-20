@@ -24,8 +24,8 @@ public:
 		cin >> correo;
 	}
 
-	int get_name() {}
+	string get_name() { return nombre; }
 
-	int get_correo() {}
+	string get_correo() { return correo; }
 
 };
